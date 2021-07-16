@@ -1,10 +1,10 @@
 date=str(input("Please enter your birth date : ")).zfill(2)  #here .zfill() is inbuilt function which used to add zeros before any number
 month=str(input("Please enter your birth month : ")).zfill(2)
 dob =month+date     #here i have concatenated two strings
-if 12>int(month) or 31>int(date) or 0>int(month) or 0>int(date):   #it's made to give error if month is above 12 and date is above 31 or less than 0
+if 12<int(month) or 31<int(date) or 0>int(month) or 0>int(date):   #it's made to give error if month is above 12 and date is above 31 or less than 0
     print("INVALID INPUT")
 else:
-    dob=int(dob)        #here i have converted that string into integer so we can apply decision making statements
+    dob =int(dob)        #here i have converted that string into integer so we can apply decision making statements
     if 321<=dob<=419:
         print("Your Zodiac Sign is 'Aries' And Your Symbol is 'The Ram' ")
     elif 420<=dob<=520:
