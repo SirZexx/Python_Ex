@@ -110,6 +110,8 @@ favorable =['AriesAries','AriesGemini','AriesLeo','AriesLibra','AriesSagittarius
             'CapricornTaurus','CapricornCancer','CapricornVirgo','CapricornScorpio','CapricornCapricorn','CapricornPisces',
             'AquariusAries','AquariusGemini','AquariusLeo','AquariusLibra','AquariusSagittarius','AquariusCapricorn','AquariusAquarius',
             'PiscesTaurus','PiscesCancer','PiscesVirgo','PiscesScorpio','PiscesCapricorn','PiscesPisces']
+lessfavorable=[]
+notfavorable=[]
 
 if sign in favorable:
     print('This Couple is Favorable!!!')
