@@ -110,7 +110,11 @@ favorable =['AriesAries','AriesGemini','AriesLeo','AriesLibra','AriesSagittarius
             'CapricornTaurus','CapricornCancer','CapricornVirgo','CapricornScorpio','CapricornCapricorn','CapricornPisces',
             'AquariusAries','AquariusGemini','AquariusLeo','AquariusLibra','AquariusSagittarius','AquariusCapricorn','AquariusAquarius',
             'PiscesTaurus','PiscesCancer','PiscesVirgo','PiscesScorpio','PiscesCapricorn','PiscesPisces']
-lessfavorable=[]
+lessfavorable=['AriesTaurus','AriesVirgo','AriesScorpio','AriesPisces',
+               'TaurusGemini','TaurusLibra','TaurusSagittarius',
+               'GeminiTaurus','GeminiScorpio','GeminiCapricorn',
+               'CancerGemini','CancerLeo','CancerSagittarius','CancerAquarius',
+               ]
 notfavorable=[]
 
 if sign in favorable:
