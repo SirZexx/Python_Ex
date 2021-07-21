@@ -12,7 +12,7 @@
 #         sum=sum+num
 #         count = count + 1
         
-# print(f"Sum of first 50 numbers divisible by 11 is {sum}")
+# print Sum of first 50 numbers divisible by 11
 
 #using for loop
 num=0
