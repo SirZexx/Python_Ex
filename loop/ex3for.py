@@ -12,6 +12,5 @@ for count in range (0,num+1):
     if num>=1:
         fact=num*fact
         num=num-1
-    # print(num)
 
 print(fact)
