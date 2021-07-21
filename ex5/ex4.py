@@ -115,7 +115,15 @@ lessfavorable=['AriesTaurus','AriesVirgo','AriesScorpio','AriesPisces',
                'GeminiTaurus','GeminiScorpio','GeminiCapricorn',
                'CancerGemini','CancerLeo','CancerSagittarius','CancerAquarius',
                ]
-notfavorable=[]
+notfavorable=['AriesCancer','AriesCapricorn','TaurusLeo','TaurusAquarius','GeminiPisces','CancerAries','CancerLibra',
+              'LeoTaurus','LeoScorpio','LeoPisces','VirgoGemini','VirgoSagittarius','LibraCancer','LibraCapricorn',
+              'ScorpioLeo','ScorpioAquarius','SagittariusVirgo','SagittariusPisces','CapricornAries','CapricornGemini',
+              'CapricornLeo','CapricornLibra','CapricornSagittarius','CapricornAquarius','AquariusTaurus','AquariusScorpio',
+              'PiscesGemini','PiscesSagittarius']
 
 if sign in favorable:
-    print('This Couple is Favorable!!!')
+    print('"This Couple is Very Favorable!!!"')
+elif sign in lessfavorable:
+    print('"This Couple is Less Favorable!!!"')
+elif sign in notfavorable:
+    print('"This Couple is Not Favorable at all!!!"')

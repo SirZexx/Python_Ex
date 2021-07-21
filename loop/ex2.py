@@ -9,3 +9,6 @@ while next_num<=100:
     num1=num1+1
     num2=num1
     
+    
+    
+# not solved
