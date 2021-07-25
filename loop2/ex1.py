@@ -5,7 +5,7 @@
 string=str(input("Enter string to check if its palindrome or not : "))
 rev_str=str()
 for letter in reversed(string):
-    rev_str=rev_str+letter
+    rev_str=rev_str+letter #here rev_str will concatenate each letter in reversed
 if rev_str==string:
     print(f"Your string {string} is palindrome string because it's reversed is same as string which is {rev_str} ")
 else:
