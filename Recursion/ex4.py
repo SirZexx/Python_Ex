@@ -1,15 +1,17 @@
-# write a program to print first 50 fibonacci number in reverse
-count=1
-previous=1
+# write a program to print first 50 fibonacci number in reverted
+previous=0
 current=1
-def fibonacci():
+count=0
+def fibonacci(next):
+    global count
+    global current
+    global previous
     if count<=50:
-        next=previous+current
+        next=current+previous
         previous=current
         current=next
         count+=1
-        fibonacci(next)
-        print(next,end=" ")
-        
-        
-fibonacci()
+        fibonacci(count)
+    print(next,end=" ")
+
+fibonacci(0)
