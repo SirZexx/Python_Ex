@@ -1,24 +1,24 @@
 # write a program to create single level inheritance 
-#     parent class kb return KiloBytes of given bytes 
-#     child class mb return MegaBytes of given bytes 
+#     parent class kg return KiloBytes of given bytes 
+#     child class ton return MegaBytes of given bytes 
 
-class kb():
+class kg():
     def abs(self,bytes):
         if bytes<0:
             return 0-bytes
         else:
             return bytes
-    def kb(self,bytes):
-        kb=self.abs(bytes)/1024
-        return float(kb)
-class mb(kb):
-    def mb(self,bytes):
-        return float(self.kb(bytes) / 1024)
+    def kg(self,bytes):
+        kg=self.abs(bytes)/1024
+        return float(kg)
+class ton(kg):
+    def ton(self,bytes):
+        return float(self.kg(bytes) / 1024)
 
-k1=kb()    
+k1=kg()    
 bytes=int(input("Enter Bytes to convert it into KiloBytes"))
-print(f"{bytes} Bytes is equal to {k1.kb(bytes)} Kb")
+print(f"{bytes} Bytes is equal to {k1.kg(bytes)} kg")
 
-m1=mb()
+m1=ton()
 bytes=int(input("Enter Bytes to convert it into MegaBytes"))
-print(f"{bytes} Bytes is equal to {m1.mb(bytes)} Mb")
+print(f"{bytes} Bytes is equal to {m1.ton(bytes)} ton")
