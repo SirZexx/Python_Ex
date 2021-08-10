@@ -20,5 +20,5 @@ grams=int(input("Enter grams to convert it into Kilograms : "))
 print(f"{grams} grams is equal to {k1.kg(grams)} kg")
 
 m1=ton()
-grams=int(input("Enter grams to convert it into Megagrams : "))
+grams=int(input("Enter grams to convert it into Tons : "))
 print(f"{grams} grams is equal to {m1.ton(grams)} ton")
