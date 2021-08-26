@@ -1,0 +1,5 @@
+Python Module Related Exercise
+1. Write a program to Download you-tube Video on specific location by pasting it's URL as input
+2. Write a program to show score of any indian cricket match going on.
+3. Write a program which tells score of any indian cricket match going on through Audio(Voice).
+4. write a program to automatically clear your download folder on given time.
