@@ -5,6 +5,6 @@ import os
 #C:\Users\(your user name)\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\
 
 # path will be the path of folder which you would like to delete on startup
-path= ("E:\hello")
-shutil.rmtree(path) #this will delete folder
-os.mkdir(path) #this will recreate folder which is deleted (so you will get empty folder)
+# path= ("E:\hello")
+# shutil.rmtree(path) #this will delete folder
+# os.mkdir(path) #this will recreate folder which is deleted (so you will get empty folder)
