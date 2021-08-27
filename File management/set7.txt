@@ -1,0 +1,3 @@
+1 write a program to count words, letters, calculate file size of given file 
+2 write a program to print every alternate word of given file 
+3 write a program to findout given word exist in given file or not. if found print line and it's line number
