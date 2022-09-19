@@ -12,50 +12,50 @@ while (1 < 2):
 
     print ("Rock, Paper, Scissors - Shoot!")
 
-userChoice = input("Choose your weapon [R]ock], [P]aper, or [S]cissors: ")
+    userChoice = input("Choose your weapon [R]ock], [P]aper, or [S]cissors: ")
 
-if not re.match("[SsRrPp]", userChoice):
+    if not re.match("[SsRrPp]", userChoice):
 
-    print ("Please choose a letter:")
+        print ("Please choose a letter:")
 
-    print ("[R]ock, [S]cissors or [P]aper.")
+        print ("[R]ock, [S]cissors or [P]aper.")
 
-continue
+        continue
 
-# Echo the user's choice
+    # Echo the user's choice
 
-print ("You chose: " + userChoice)
+    print ("You chose: " + userChoice)
 
-choices = ['R', 'P', 'S']
+    choices = ['R', 'P', 'S']
 
-opponenetChoice = random.choice(choices)
+    opponentChoice = random.choice(choices)
 
-print ("I chose: " + opponenetChoice)
+    print ("I chose: " + opponentChoice)
 
-if opponenetChoice == str.upper(userChoice):
+    if opponentChoice == str.upper(userChoice):
 
-    print ("Tie! ")
+        print ("Tie! ")
 
-#if opponenetChoice == str("R") and str.upper(userChoice) == "P"
+    #if opponentChoice == str("R") and str.upper(userChoice) == "P"
 
-elif opponenetChoice == 'R' and userChoice.upper() == 'S':
+    elif opponentChoice == 'R' and userChoice.upper() == 'S':
 
-    print ("Scissors beats rock, I win! ")
+        print ("Scissors beats rock, I win! ")
 
-continue
+        continue
 
-elif opponenetChoice == 'S' and userChoice.upper() == 'P':
+    elif opponentChoice == 'S' and userChoice.upper() == 'P':
 
-print ("Scissors beats paper! I win! ")
+        print ("Scissors beats paper! I win! ")
 
-continue
+        continue
 
-elif opponenetChoice == 'P' and userChoice.upper() == 'R':
+    elif opponentChoice == 'P' and userChoice.upper() == 'R':
 
-    print ("Paper beat rock, I win!")
+        print ("Paper beat rock, I win!")
 
-continue
+        continue
 
-else:
+    else:
 
-    print ("You win!")
+        print ("You win!")
